@@ -1,0 +1,21 @@
+import turtle as t
+t.speed(0)t.bgcolor("black")
+for x in range(50):    t.color("black")    t.forward(30)    t.color("white")    t.forward(500)    t.right(180)    t.forward(500)    t.color("black")    t.forward(30)    t.right(3.6)
+for x in range(50):    t.color("black")    t.forward(30)    t.color("red")    t.forward(500)    t.right(180)    t.forward(500)    t.color("black")    t.forward(30)    t.right(3.6)
+for x in range(50):    t.color("black")    t.forward(30)    t.color("blue")    t.forward(500)    t.right(180)    t.forward(500)    t.color("black")    t.forward(30)    t.right(3.6)
+for x in range(100):    t.color("black")    t.forward(30)    t.forward(500)    t.right(180)    t.forward(500)    t.forward(30)    t.right(3.6)
+t.bgcolor("blue")import turtle as t
+t.speed(0)t.bgcolor("blue")t.color("white")t.right(180)
+#I모양t.color("white")t.begin_fill()t.left(90)t.forward(100)t.left(90)t.forward(20)t.left(90)t.forward(120)t.left(135)t.forward(34.6)t.end_fill()
+t.color("blue")t.forward(5)
+#L모양t.color("yellow")t.begin_fill()t.forward(25)t.right(135)t.forward(60)t.left(90)t.forward(60)t.right(135)t.forward(25)t.right(45)t.forward(60)t.right(90)t.forward(60)t.end_fill()
+t.right(45)t.forward(25)t.color("blue")t.forward(40)
+#N 모양t.color("white")t.begin_fill()t.forward(30.6)t.right(90)t.forward(100)t.right(90)t.forward(30.6)t.right(90)t.forward(100)t.left(135)t.end_fill()
+t.begin_fill()t.forward(80)t.left(90)t.forward(20)t.left(90)t.forward(100)t.left(135)t.forward(28.6)t.end_fill()
+t.left(90)t.forward(100)
+t.begin_fill()t.left(90)t.forward(34.6)t.left(45)t.forward(80)t.left(90)t.forward(20)t.left(90)t.forward(100)t.end_fill()
+t.color("blue")t.left(135)t.forward(70.6)
+#L모양
+t.color("yellow")t.begin_fill()t.forward(25)t.left(45)t.forward(60)t.left(90)t.forward(60)t.left(45)t.forward(25)t.left(135)t.forward(60)t.right(90)t.forward(60)t.end_fill()
+t.color("blue")t.left(135)t.forward(30)
+#U모양t.color("white")t.begin_fill()t.right(135)t.forward(50)for x in range(36):    t.left(5)    t.forward(5)t.forward(70)t.left(90)t.forward(20)t.left(90)t.forward(75)for x in range(36):    t.right(5)    t.forward(3.3)t.forward(70)t.left(135)t.forward(33.6)t.end_fill()
